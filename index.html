@@ -32,7 +32,7 @@
     </header>
     
     <div class="">
-      <div class="container mx-auto px-4 py-12 flex flex-col  md:flex-row lg:flex lg:flex-row">
+      <div class="container mx-auto px-4 py-12 flex flex-col md:flex md:flex-row lg:flex lg:flex-row">
 	<div class="flex-1 p-4 m-2">
 	  <img class="rounded-lg drop-shadow-xl" alt=""
 	       src="./assets/img/hero.jpg"/>
@@ -74,7 +74,7 @@
     </div>
       
     <div class="">
-      <div class="container mx-auto px-4 py-12 flex flex-col md:flex md:flex-row lg:flex lg:flex-row-reverse">
+      <div class="container mx-auto px-4 py-12 flex flex-col-reverse md:flex md:flex-row lg:flex lg:flex-row">
 	<div class="flex-1 p-4 m-2">
 	  <h1 class="text-yellow-900 font-bold text-4xl mb-2"> Teaching</h1>
 	  <p class="text-yelloe-900 mb-8">
@@ -93,21 +93,22 @@
     
   
     <!-- Acá va el contenido de la página -->
-    <div class=" gallery container mx-auto object-cover">     
+    <div>
+    <div class="container mx-auto object-cover p-4 grid grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4 gap-2">     
 	    
-	<img class=" gallery-item "src="./assets/img/resize/10-c-1.JPG" alt="Imagen 3">      
-	<img class=" gallery-item "src="./assets/img/resize/10-c-10.JPG" alt="Imagen 3">      
-	<img class=" gallery-item "src="./assets/img/resize/10-c-6.JPG" alt="Imagen 3">       
+	<img class=" " src="./assets/img/resize/10-c-1.JPG" alt="Imagen 3">      
+	<img class=" " src="./assets/img/resize/10-c-10.JPG" alt="Imagen 3">      
+	<img class=" " src="./assets/img/resize/10-c-6.JPG" alt="Imagen 3">       
 	<img src="./assets/img/resize/7-c-2.jpeg" alt="Imagen 2">      
 
-
+</div>
 
       </div>
           
       
       <!-- Agrega más elementos de galería aquí -->
 </div>
-<footer class="h-24 w-full bg-yellow-900 mt-8  text-white flex justify-center items-center">
+<footer class="h-24 w-full bg-yellow-900 mt-12  text-white flex justify-center items-center">
 <div class="flex-1 flex flex-wrap justify-center items-center">
   <p>© Copyright <span> 2023</span></p>
 </div>
